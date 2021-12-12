@@ -13,8 +13,7 @@ download ngrok and unzip and run..
 signup in ngrok website where u download to get authorized token in ngrok..
 
 
-In command prompt (open that ngrok.exe file) type ngrok authtoken <your token>
-  
+In command prompt (open that ngrok.exe file) type ngrok authtoken <<your token>>
 
 Now run the python flask code .....
 Open new command prompt run ngrok http 5000 to allocate a temporary public domain that redirects HTTP requests to our local port 5000.
